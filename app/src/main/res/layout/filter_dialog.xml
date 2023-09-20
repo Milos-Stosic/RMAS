@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/filter_marker_author_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="author_name"
+        android:inputType="text"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/selected_radius_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="radius_1km"
+        android:textSize="15sp"
+        android:layout_marginStart="12dp"/>
+    <SeekBar
+        android:id="@+id/filter_marker_radius_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="1"
+        android:layout_marginTop="16dp" />
+
+
+
+</LinearLayout>
